@@ -1,0 +1,125 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title>Employee Form</title>
+		<style>
+			body
+				{ 
+					height: 100%;
+					background: linear-gradient(#9966FF,#ff66ff);
+				}
+			form
+				{
+					padding-left:50px;
+					padding-right:50px;
+				}
+		</style>
+</head>
+<body>
+	<center>
+	<img src="89966970_745940402477566_7796339783772405760_n.png" width="15%">
+	</center>
+	<form name="FrmDataEntry" method="get" action="submit.html">
+		<h1>Employee Information</h1>
+		<p>Please fill out your information below:</p>
+				<br>
+				<hr>
+				<hr>
+				<br>
+		<h2>Personal Information</h2>
+				<br>
+				<hr>
+				<br>
+		<p><b>Name:</b></p>
+		<input type="text" name="fname" id="fname"/>
+			&nbsp;&nbsp;&nbsp;&nbsp;
+		<input type="text" name="mname" id="mname"/>
+			&nbsp;&nbsp;&nbsp;&nbsp;
+		<input type="text" name="lname" id="lname"/>
+				<br>
+			<label for="fname">First name</label>
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+			<label for="mname">Middle name</label>
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+			<label for="lname">Last name</label>
+				<br>
+				<br>
+				<br>
+				<br>
+				<br>
+		<p><b>Address:</b></p>
+		<input type="text" name="address" id="address" style="width:600px" />
+				<br>
+			<label for="address">Street address:</label>
+				<br>
+				<br>
+		<input type="text" name="address2" id="address2" style="width:600px"/>
+				<br>
+			<label for="address2">Street address line 2:</label>
+				<br>
+				<br>
+		<input type="text" name="city" id="city"/>
+				&nbsp;&nbsp;&nbsp;&nbsp;
+		<input type="text" name="state" id="state"/>
+				<br>
+			<label for="city">City</label>
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+			<label for="state">State/Province</label>
+				<br>
+				<br>
+		<input type="text" name="zcode" id="zcode"/>
+				&nbsp;&nbsp;&nbsp;&nbsp;
+		<select name="country">
+			<option value="select" selected="selected">&nbsp;Please Select&nbsp;&nbsp;&nbsp;</option>
+			<option value="af">Afganistan</option>
+			<option value="al">Algeria</option>
+			<option value="ba">Bangladesh</option>
+			<option value="be">Belgium</option>
+			<option value="ca">Canada</option>
+			<option value="in">india</option>
+			<option value="ir">Iran</option>
+			<option value="pak">Pakistan</option>
+		</select>
+				<br>
+			<label for="zcode">Postal/Zip Code</label>
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+			<label for="country">Country</label>
+				<br>
+				<br>
+				<br>
+				<br>
+				<br>
+				<br>
+		<p><b>Phone Number:</b></p>
+			<input type="text" name="acode" id="acode" style="width:70px"/>-
+			<input type="text" name="pnum" id="pnum"/>
+				<br>
+			<label for="acode">Area Code</label>
+				&nbsp;&nbsp;&nbsp;
+			<label for="pnum">Phone Number</label>
+		<p><b>Alt Phone Number:</b></p>
+			<input type="text" name="altacode" id="altcode" style="width:70px"/>-
+			<input type="text" name="altpnum" id="altpnum"/>
+			<br>
+			<label for="altcode">Area Code</label>
+				&nbsp;&nbsp;&nbsp;
+			<label for="altpnum">Phone Number</label>
+				<br>
+				<br>
+				<br>
+				<br>
+		<p><b>E-mail:</b></p>
+			<input type="text" name="email" id="email" value="ex: myname@example.com" style="width:170px"/>
+				<br>
+				<br>
+				<br>
+			<center>
+			<input type="button" name"submit" id="submit" value="SUBMIT"/>
+			<input type="reset" name="reset" id="reset" value="RESET"/>
+			<i class="fab fa-facebook"></i>
+		</center>
+	</form>
+</body>
+</html>
